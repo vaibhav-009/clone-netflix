@@ -33,10 +33,10 @@ function Player(props) {
         
         trailer();
     });
-
+    let wide = window.innerWidth;
     const options = {
-        height: "400px",
-        width:"700px",
+        height: wide>500?"400":"200",
+        width:"88%",
         playerVars: {
         autoplay: 1,
       }
