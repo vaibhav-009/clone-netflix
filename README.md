@@ -1,5 +1,5 @@
 ## Website Link
-https://clone-netflix2.herokuapp.com/
+https://clone-netflix-1225.netlify.app/
 
 ## Description
 This project is a clone of tha famous streaming site Netflix. I have mainly used ReactJS to make the effects similar to the original site. I have also used an API of tmdb site to fetch the required data of all the movies.
