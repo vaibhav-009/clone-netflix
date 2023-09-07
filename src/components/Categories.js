@@ -40,7 +40,7 @@ function Categories(props) {
             slide_style.current.style.transform = `translate(${141 + dist}px)`;
             setSlide(slide_number - 1);
         }
-        if(direction === "right" && slide_number<11)
+        if(direction === "right" && slide_number<10)
         {
             slide_style.current.style.transform = `translate(${-141 + dist}px)`;
             setSlide(slide_number + 1);
